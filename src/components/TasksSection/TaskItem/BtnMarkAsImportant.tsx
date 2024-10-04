@@ -15,7 +15,7 @@ const BtnMarkAsImportant: React.FC<{
 
   return (
     <button
-      title={taskImportant ? "unmark as important" : "mark as important"}
+      title={taskImportant ? "Desmaque como mercearia" : "Marque como mercearia"}
       onClick={markAsImportantHandler}
       className="transition hover:text-slate-700 dark:hover:text-slate-200 ml-auto"
     >

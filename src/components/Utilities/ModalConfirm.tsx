@@ -11,12 +11,12 @@ const ModalConfirm: React.FC<{
     onClose();
   };
   return (
-    <Modal onClose={onClose} title="Are you sure?">
+    <Modal onClose={onClose} title="Tem certeza?">
       <p className="text-slate-500">{text}</p>
       <div className="mt-7 ml-auto">
-        <button onClick={onClose}>Cancel</button>
+        <button onClick={onClose}>Cancelar</button>
         <button onClick={confirmAndCloseModal} className="btn ml-6">
-          Confirm
+          Confirmar
         </button>
       </div>
     </Modal>

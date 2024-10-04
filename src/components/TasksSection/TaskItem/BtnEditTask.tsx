@@ -24,7 +24,7 @@ const BtnEditTask: React.FC<{ task: Task }> = ({ task }) => {
   return (
     <>
       <button
-        title="edit task"
+        title="Editar Produto"
         className="transition w-7 sm:w-8 h-6 sm:h-8 grid place-items-center dark:hover:text-slate-200 hover:text-slate-700"
         onClick={openModalEditTask}
       >
@@ -34,7 +34,7 @@ const BtnEditTask: React.FC<{ task: Task }> = ({ task }) => {
         <ModalCreateTask
           onClose={closeModalEditTask}
           task={task}
-          nameForm="Edit task"
+          nameForm="Editar Produto"
           onConfirm={editTaskHandler}
         />
       )}

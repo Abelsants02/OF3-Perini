@@ -17,7 +17,7 @@ const DeleteTasks: React.FC = () => {
       {showModal && (
         <ModalConfirm
           onClose={() => setIsModalShown(false)}
-          text="All data will be deleted permanently."
+          text="Todos os dados serão excluídos permanentemente."
           onConfirm={deleteAllDataHandler}
         />
       )}
@@ -25,7 +25,7 @@ const DeleteTasks: React.FC = () => {
         className="mt-auto text-left pt-4 hover:text-rose-600 dark:hover:text-slate-200 transition "
         onClick={() => setIsModalShown(true)}
       >
-        Delete all data
+        Excluir todos os dados
       </button>
     </>
   );

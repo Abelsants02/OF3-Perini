@@ -16,13 +16,13 @@ const BtnDeleteTask: React.FC<{ taskId: string }> = ({ taskId }) => {
       {showModal && (
         <ModalConfirm
           onClose={() => setIsModalShown(false)}
-          text="This task will be deleted permanently."
+          text="Esta produto será excluída permanentemente."
           onConfirm={removeTaskHandler}
         />
       )}
       <button
         onClick={() => setIsModalShown(true)}
-        title="delete task"
+        title="Delete o produto"
         className="ml-2 transition hover:text-slate-700 dark:hover:text-slate-200"
       >
         <Trash className="w-5 h-5 sm:w-6 sm:h-6" />

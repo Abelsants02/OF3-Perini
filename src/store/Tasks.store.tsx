@@ -9,27 +9,27 @@ import { Task } from "../interfaces";
 
 const defaultTasks: Task[] = [
   {
-    title: "Task 1",
+    title: "Tarefa 1",
     important: false,
-    description: "This is the description for this task",
+    description: "Esta é a descrição desta tarefa",
     date: "2023-04-12",
     dir: "Main",
     completed: true,
     id: "t1",
   },
   {
-    title: "Task 2",
+    title: "Tarefa 2",
     important: true,
-    description: "This is the description for this task",
+    description: "Esta é a descrição desta tarefa",
     date: "2023-05-15",
     dir: "Main",
     completed: true,
     id: "t2",
   },
   {
-    title: "Task 3",
+    title: "tarefa 3",
     important: false,
-    description: "This is the description for this task",
+    description: "Esta é a descrição desta tarefa",
     date: "2023-08-21",
     dir: "Main",
     completed: false,

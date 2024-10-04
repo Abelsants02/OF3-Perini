@@ -43,15 +43,15 @@ const ItemDirectory: React.FC<{ dir: string; classActive: string }> = ({
           onClose={closeModalDirectoryHandler}
           onConfirm={confirmEditDirNameHandler}
           dirName={dir}
-          title="Edit directory name"
-          btnText="Edit"
+          title="Edite o nome da seção"
+          btnText="Editar"
         />
       )}
       {modalIsShown && (
         <ModalConfirm
           onClose={() => setModalIsShown(false)}
           onConfirm={deleteDirectoryHandler}
-          text="This directory and all its tasks will be deleted."
+          text="Esta seção e Todos os produtos sera deletados."
         />
       )}
       <li
@@ -70,13 +70,13 @@ const ItemDirectory: React.FC<{ dir: string; classActive: string }> = ({
         {dir !== "Main" && (
           <div className="ml-auto buttonsDir">
             <button
-              title="edit directory name"
+              title="Edita o nome da seção"
               onClick={() => setModalDirIsShown(true)}
             >
               <Edit className="w-5 h-5 mr-2" />
             </button>
             <button
-              title="delete directory"
+              title="Excluir seção"
               onClick={() => setModalIsShown(true)}
             >
               <Trash className="w-5 h-5" />

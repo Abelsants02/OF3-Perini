@@ -24,7 +24,7 @@ const TaskOnly: React.FC = () => {
 
   const title = matchedTask.length ? matchedTask[0].title : "";
 
-  useDescriptionTitle(`Searching for ${title}`, "Task " + title);
+  useDescriptionTitle(`Procurando por ${title}`, "Produto " + title);
 
   return <LayoutRoutes title={title} tasks={matchedTask} />;
 };

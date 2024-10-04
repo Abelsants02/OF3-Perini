@@ -17,7 +17,7 @@ const BtnToggleCompleted: React.FC<{
 
   return (
     <button
-      title={taskCompleted ? "mark as uncompleted" : "mark as completed"}
+      title={taskCompleted ? "Desmarque como frios" : "Marque como frios"}
       className={`${
         taskCompleted
           ? "bg-emerald-200 text-emerald-800 "

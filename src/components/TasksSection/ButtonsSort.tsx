@@ -30,7 +30,7 @@ const ButtonsSort: React.FC<{
         onChange={({ target }) => setSortedBy(target.value)}
       >
         <option value="" disabled>
-          Sort by
+        Ordenar por
         </option>
         {sortValues.map((val) => (
           <option

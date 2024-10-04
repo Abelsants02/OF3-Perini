@@ -13,10 +13,10 @@ const ImportantTasks: React.FC = () => {
     setImportantTasks(filteredTasks);
   }, [tasks]);
 
-  useDescriptionTitle("Tasks marked as important", "Important tasks");
+  useDescriptionTitle("Tarefas marcadas da mecearia", "produtos da mecearia");
 
   return (
-    <LayoutRoutes title="Important tasks" tasks={importantTasks}></LayoutRoutes>
+    <LayoutRoutes title="produtos da mecearia" tasks={importantTasks}></LayoutRoutes>
   );
 };
 
